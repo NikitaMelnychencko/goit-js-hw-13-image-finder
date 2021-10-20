@@ -1,7 +1,14 @@
-$font-size: 1rem;
-$font-color: #232323;
+//___utils____//
+@import"./utils/breakpoints";
+@import"./utils/variables";
 
-html {
-  font-size: $font-size;
-  color: $font-color;
-}
+//___global____//
+@import"./base/global_class";
+@import"./base/reset";
+//___components____//
+@import"./components/modal";
+@import"./components/form";
+@import"./components/countdown";
+//___layout____//
+@import"./layout/header";
+@import"./layout/gallery";

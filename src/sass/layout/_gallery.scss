@@ -1,0 +1,37 @@
+
+.wrapper--color {
+  background-color: darkgray;
+  position: sticky;
+  top: 100px;
+}
+.gallery-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.photo-card{
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: 8px 14px 8px rgba(0, 0, 0, 0.15) ;
+  //box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),0px 4px 4px rgba(0, 0, 0, 0.06),1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.photo-card__img{
+  height: 410px;
+  width: 410px;
+}
+.material-icons{
+margin-right: 10px;
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.stats-item{
+  display: flex;
+  align-items: center
+}
+
