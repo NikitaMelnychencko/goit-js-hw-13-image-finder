@@ -3,7 +3,7 @@ import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
 import { fetchImages } from './apiService.js';
 import murkupImages from '../views/layouts/gallery.hbs';
-import * as basicLightbox from 'basiclightbox';
+const basicLightbox = require('basiclightbox')
 
 const formImage = document.querySelector('.search-form');
 const galleryEl = document.querySelector('.gallery-item');

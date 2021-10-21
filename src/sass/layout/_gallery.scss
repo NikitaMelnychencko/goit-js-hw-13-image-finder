@@ -1,4 +1,3 @@
-
 .wrapper--color {
   background-color: $third-background-color;
   position: sticky;
@@ -11,27 +10,29 @@
   justify-content: space-evenly;
   align-items: center;
 }
-.photo-card{
+.photo-card {
   background-color: $selection-background-color;
   margin-bottom: 20px;
-  box-shadow: 8px 14px 8px $primary-box-shadow ;
+  box-shadow: 8px 14px 8px $primary-box-shadow;
+}
+.photo-card__img {
+  height: 310px;
+  width: 310px;
 
+  @media screen and (min-width: $desktop-up) {
+    height: 410px;
+    width: 410px;
+  }
 }
-.photo-card__img{
-  height: 410px;
-  width: 410px;
-}
-.material-icons{
-margin-right: 10px;
+.material-icons {
+  margin-right: 10px;
 }
 .stats {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
-.stats-item{
+.stats-item {
   display: flex;
-  align-items: center
+  align-items: center;
 }
-
