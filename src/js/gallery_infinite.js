@@ -32,7 +32,7 @@ function fetchCall() {
 }
 function renderImages(valueArr) {
   if (valueArr.hits.length === 0) {
-    noticeNoResults();
+    return noticeNoResults();
   }
   const renderImages = murkupImages(valueArr.hits);
   if (page === 1) {
